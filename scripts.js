@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Filter out the project you want to ignore
             const filteredProjects = data.filter(repo => repo.name !== 'SarthakTechie');
+            const filteredProjects = data.filter(repo => repo.name !== 'SarthakTechie.github.io');
             
             filteredProjects.forEach(repo => {
                 const projectElement = document.createElement('div');
