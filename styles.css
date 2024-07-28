@@ -93,3 +93,26 @@ footer {
     color: #ffffff;
     margin-top: 2rem;
 }
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0073e6; /* Change color on hover */
+}
+
+/* Remove line between sections */
+#projects, #contact {
+    border: none; /* Ensure there's no border */
+    padding: 20px 0; /* Add padding if needed */
+}
